@@ -21,7 +21,7 @@ export class Cart{
     thisCart.dom = {};
 
     thisCart.dom.wrapper = element;
-
+    console.log(element);
     thisCart.dom.productList = thisCart.dom.wrapper.querySelector(select.cart.productList);
     thisCart.dom.toggleTrigger = thisCart.dom.wrapper.querySelector(select.cart.toggleTrigger);
 
